@@ -1,24 +1,40 @@
 body {
-  font-family: "Roboto", sans-serif;
-}
-
-div.pageContent {
-  margin-top: 5em;
-  height: 100%;
-  text-align: center;
-}
-
-img.img_sprite_front_default {
-  width: 96px;
-  height: 96px;
-  margin-block: 1em;
-}
-
-button#previous,
-button#next {
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
-  display: inline-block;
-  font-size: 18px;
-}
+    font-family: "Roboto", sans-serif;
+  }
+  
+  div.pageContent {
+    margin-top: 5em;
+    height: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 1em;
+  }
+  
+  img#img_sprite_front_default {
+    width: 96px;
+    height: 96px;
+    margin-block: 1em;
+  }
+  
+  button#previous,
+  button#next {
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+  }
+  
+  ul.habilidades-pokemon {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1em; 
+  }
+  
+  ul.habilidades-pokemon li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
